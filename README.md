@@ -66,32 +66,7 @@ The analytical and FDTD approaches are compared in terms of modal scattering and
 
 A spatial-resolution study is used to investigate the sensitivity of the numerical solution to discretization. Differences between the two methods are examined with consideration of modal normalization, finite computational domains, absorbing boundaries, monitor placement, and radiation or other power contributions not captured by a guided-mode-only calculation.
 
-## Repository Structure
 
-```text
-waveguide-mode-matching-fdtd/
-├── config.py
-├── mode_matching.py
-├── modal_analysis.py
-├── fdtd_step.py
-├── fdtd_identity.py
-├── convergence.py
-├── plots.py
-├── results/
-├── requirements.txt
-└── README.md
-```
-
-- `config.py` — Shared physical and simulation parameters.
-- `mode_matching.py` — Analytical mode-matching implementation.
-- `modal_analysis.py` — Waveguide modal analysis.
-- `fdtd_step.py` — FDTD simulation of the width discontinuity.
-- `fdtd_identity.py` — Reference simulation for checking the uniform-waveguide setup.
-- `convergence.py` — Spatial-resolution and numerical convergence study.
-- `plots.py` — Plotting and visualization utilities.
-- `results/` — Selected simulation outputs, numerical data, and generated figures.
-
-*The file descriptions above reflect the intended roles of the project scripts; update them if the implementation differs.*
 
 ## Software and Dependencies
 
